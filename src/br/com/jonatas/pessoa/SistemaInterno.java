@@ -1,3 +1,6 @@
+package br.com.jonatas.pessoa;
+
+import br.com.jonatas.pessoa.interfaces.Autentica;
 
 public class SistemaInterno {
 	private int senha = 2222;

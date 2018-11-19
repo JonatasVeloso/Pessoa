@@ -1,3 +1,4 @@
+package br.com.jonatas.pessoa.interfaces;
 
 public interface Autentica {
 	

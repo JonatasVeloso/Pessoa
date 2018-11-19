@@ -1,13 +1,10 @@
+package br.com.jonatas.pessoa;
 
-public class Administrador extends Funcionario implements Autentica{
-	
+import br.com.jonatas.pessoa.interfaces.Autentica;
+
+public class Autenticador implements Autentica {
 	private int senha;
-	@Override
-	public void getBonificaacao() {
-		
-	}
 	
-	@Override
 	public boolean autentica(int senha) {
 		if(this.senha == senha) {
 			return true;
@@ -16,8 +13,8 @@ public class Administrador extends Funcionario implements Autentica{
 		}
 	}
 	
-	@Override
 	public void setSenha(int senha) {
 		this.senha = senha;
 	}
+
 }

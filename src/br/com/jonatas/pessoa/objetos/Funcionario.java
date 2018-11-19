@@ -1,3 +1,4 @@
+package br.com.jonatas.pessoa.objetos;
 
 public abstract class Funcionario {
 	private String nome;
